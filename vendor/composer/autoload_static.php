@@ -612,6 +612,7 @@ class ComposerStaticInitdb4bdfb6309d328908d81ffb2f7273b6
         'App\\Http\\Requests\\UpdateTeamRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdateTeamRequest.php',
         'App\\Http\\Requests\\Users\\UpdateUserRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Users/UpdateUserRequest.php',
         'App\\Models\\Access' => __DIR__ . '/../..' . '/app/Models/Access.php',
+        'App\\Models\\Media' => __DIR__ . '/../..' . '/app/Models/Media.php',
         'App\\Models\\Project' => __DIR__ . '/../..' . '/app/Models/Project.php',
         'App\\Models\\Section' => __DIR__ . '/../..' . '/app/Models/Section.php',
         'App\\Models\\Task' => __DIR__ . '/../..' . '/app/Models/Task.php',

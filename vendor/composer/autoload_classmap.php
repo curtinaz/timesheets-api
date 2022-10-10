@@ -63,6 +63,7 @@ return array(
     'App\\Http\\Requests\\UpdateTeamRequest' => $baseDir . '/app/Http/Requests/UpdateTeamRequest.php',
     'App\\Http\\Requests\\Users\\UpdateUserRequest' => $baseDir . '/app/Http/Requests/Users/UpdateUserRequest.php',
     'App\\Models\\Access' => $baseDir . '/app/Models/Access.php',
+    'App\\Models\\Media' => $baseDir . '/app/Models/Media.php',
     'App\\Models\\Project' => $baseDir . '/app/Models/Project.php',
     'App\\Models\\Section' => $baseDir . '/app/Models/Section.php',
     'App\\Models\\Task' => $baseDir . '/app/Models/Task.php',
