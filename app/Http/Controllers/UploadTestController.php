@@ -33,7 +33,7 @@ class UploadTestController extends Controller
         $path = Storage::disk('s3')->put('images', $request->image);
         $path = Storage::url($path);
 
-        /* Store $imageName name in DATABASE from HERE */
+        $path = str_replace('/storage/', 'https://bbskts-media.s3.amazonaws.com/', $path);
 
         return back()
             ->with('success', 'You have successfully upload image.')
